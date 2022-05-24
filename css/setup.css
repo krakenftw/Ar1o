@@ -1,0 +1,29 @@
+.intropic{
+    background-image: url("https://img.freepik.com/free-vector/office-background-video-conferencing_23-2148641674.jpg?w=2000"), linear-gradient(black,black);
+    height: 98vh;
+    width: 100%;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.intropic h1{
+    font-size: 4rem;
+
+}
+.intropic h2{
+    font-size: 2rem;
+}
+.helpinfo{
+    height: auto;
+    width: 100%;
+    padding: 10%;
+    font-size: 20px;
+}

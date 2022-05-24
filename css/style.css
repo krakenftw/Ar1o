@@ -91,6 +91,7 @@ body {
     margin-left: 30px;
     padding: 20px 0;
     position: relative;
+
 }
 
 .nav-wrapper ul.nav-list li a {
@@ -262,14 +263,14 @@ nav ul.dropdown-list {
 }
 
 .slideshow {
-    background-image: url("img/slideshow1.jpg");
+    background-image: url("../img/slideshow1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
     max-width: 100%;
-    height: 85vh;
+    height: 95vh;
     color: white;
 }
 
@@ -278,7 +279,7 @@ nav ul.dropdown-list {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    padding-top: 25vh;
+    padding-top: 27vh;
     font-size: 1.3rem;
 
 }
@@ -328,6 +329,9 @@ nav ul.dropdown-list {
 
     .slideshow {
         padding: 0;
+    }
+    .slideshowtext{
+        font-size: 0.8rem;
     }
 
 }
