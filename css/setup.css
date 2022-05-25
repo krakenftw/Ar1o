@@ -22,8 +22,21 @@
     font-size: 2rem;
 }
 .helpinfo{
+    background-color: rgb(206, 206, 206);
     height: auto;
     width: 100%;
     padding: 10%;
     font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.livechat{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 7%;
+
+}
+.livechat img{
+    width: 70%;
+    padding-top: 40px;
 }
